@@ -1,0 +1,14 @@
+{
+  "intents": {
+    "content_review": {
+      "description": "Evaluate, summarize, and categorize external content.",
+      "allowed": ["fetch_url", "parse_html", "extract_text", "summarize", "categorize", "search_codebase"],
+      "deny": ["execute_command", "write_file", "ssh", "git"]
+    },
+    "script_execution": {
+      "description": "Execute specific commands/scripts after user instruction.",
+      "allowed": ["execute_command", "git_push", "docker_build", "run_script"],
+      "deny": ["fetch_url", "parse_html", "extract_text"]
+    }
+  }
+}
