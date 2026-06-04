@@ -1,10 +1,10 @@
-# IBAC Intent
+# IBAC Gate
 
 Intent-based access control (IBAC) system that gates tool execution based on the current task intent.
 
 ## Overview
 
-IBAC Intent provides a policy engine for content review workflows that automatically identifies embedded scripts/code and gates their execution. The system evaluates tool calls against intent-specific allow/deny rules, ensuring safe and controlled access to system resources.
+IBAC Gate provides a policy engine for content review workflows that automatically identifies embedded scripts/code and gates their execution. The system evaluates tool calls against intent-specific allow/deny rules, ensuring safe and controlled access to system resources.
 
 ## Components
 
